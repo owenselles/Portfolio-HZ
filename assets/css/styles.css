@@ -5,6 +5,8 @@ h1 {
   body {
     background-color: #eeeff1;
   }
+
+  /* Navbar */
   .btn {
       color: #fff;
       background-color: #1a1b1f;
@@ -12,11 +14,21 @@ h1 {
       border-style: hidden;
       transition: border-radius 1s;
   }
+  @media(max-width:767px){
+    .btn {
+        color: #fff;
+        width:fit-content;
+        background-color: #1a1b1f;
+        border-radius: 8px;
+        border-style: hidden;
+        transition: border-radius 1s;
+    }
+  }
   .btn:hover {
       border-radius: 15px;
   }
   .navbar-brand {
-      color: rgb(0, 0, 0);
+      color: #1a1b1f;
       padding-left: 5px;
   }
   .navbar {
