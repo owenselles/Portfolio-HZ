@@ -10,6 +10,10 @@ h1 {
       background-color: #1a1b1f;
       border-radius: 8px;
       border-style: hidden;
+      transition: border-radius 1s;
+  }
+  .btn:hover {
+      border-radius: 15px;
   }
   .navbar-brand {
       color: rgb(0, 0, 0);
