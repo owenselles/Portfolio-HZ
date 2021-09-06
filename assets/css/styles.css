@@ -37,3 +37,19 @@ h1 {
   .nav-link {
     margin-right: 15px;
   }
+
+  .socials {
+      position: fixed;
+      top: auto;
+      right: 0;
+      bottom: 0;
+      z-index: 100;
+      display: flex;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      flex-direction: column;
+  }
+  .social-icon {
+      position: sticky;
+      padding-top: 17px;
+  }
