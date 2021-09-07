@@ -41,6 +41,10 @@
       margin-right: 15px;
   }
 
+  .animate__animated.animate__fadeInDown {
+    --animate-duration: 0.7s;
+  }
+
   .socials {
       position: fixed;
       top: auto;
@@ -161,7 +165,7 @@
   .btn-outline-dark {
       margin-top: 30px;
       margin-right: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 40px;
       padding-left: 10px;
       padding-right: 10px;
       border: 1px solid #ced1df;
