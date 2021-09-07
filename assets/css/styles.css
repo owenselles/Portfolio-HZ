@@ -59,13 +59,11 @@
   }
 
   /* About */
-
   #intro-row {
       margin-top: 120px;
       margin-bottom: 140px;
       margin-left: 50px;
   }
-
   @media(max-width:767px) {
       #intro-row {
           margin-top: 0px;
@@ -73,28 +71,27 @@
           margin-left: 0px;
       }
   }
-
   .pic-rounded {
       border-radius: 15px;
   }
 
   /* index */
-
   #text-one {
       margin-left: 50px;
       margin-bottom: 50px;
   }
-
   .gradient-container {
       position: absolute;
       top: 70px;
       right: 250px;
       overflow: hidden;
       max-width: 1100px;
-      opacity: 0.7;
+      opacity: 0.8;
       z-index: 0;
   }
-
+  .gradient-animation {
+      position: static;
+  }
   /* Text sizes */
 
   .heading-big {
@@ -126,8 +123,15 @@
       font-size: 20px;
       font-weight: 300;
   }
+  .text-gray {
+      margin-top: 25px;
+      line-height: 46px;
+      font-size: 26px;
+      color: #62646d;
+  }
 
   .btn-outline-dark {
+      margin-top: 30px;
       margin-right: 10px;
       margin-bottom: 10px;
       padding-left: 10px;
