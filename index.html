@@ -26,10 +26,12 @@
                     <div class="navbar-nav ms-auto" id="navbar-items">
                         <a class="nav-link" href="/about.html">About me</a>
                         <a class="nav-link" href="/blog.html">Blog</a>
+                        <!-- Delete this page for professional use after assignment -->
                         <a class="nav-link" href="/faq.html">FAQ</a>
                         <a class="nav-link" href="/contact.html">Contact</a>
                         <!-- change to View work when dahsboard isnt needed anymore and use to showcase projects -->
-                        <button class="btn btn-dark me-2" onclick="window.location.href='/dashboard.html';" type="button">Dashboard</button>
+                        <button class="btn btn-dark me-2" id="dashboard"
+                            onclick="window.location.href='/dashboard.html';" type="button">Dashboard</button>
                     </div>
                 </div>
             </div>
@@ -43,16 +45,21 @@
                     src="assets/images/logo-github.png" loading="lazy" width="24" alt="github" class="social-icon"></a>
         </div>
 
+        <div class="gradient-container"><img
+                src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60b186c0b5dadaad7d66fde0_webflow%20-%20shape%201.png"
+                loading="lazy" alt="" class="gradient-animation">
+        </div>
+
         <div class="container">
             <div class="row gx-5 align-items-center" id="intro-row">
-                <div class="col col-md-auto">
+                <!-- <div class="col col-md-auto">
                     <div class="text-center">
-                        <img src="assets/images/me.png" loading="lazy" alt="pic-of-me" width="375"
-                            class="pic-of-me img-fluid">
+                        <img src="assets/images/me.jpg" loading="lazy" alt="pic-of-me" width="375"
+                            class="pic-rounded img-fluid">
                     </div>
-                </div>
-                <div class="col col-md-5">
-                    <h1 class="heading-big"> Hi there!</h1>
+                </div> -->
+                <div class="col col-lg-9">
+                    <h1 class="heading-big">A developer passionate about creating beautiful user friendly products</h1>
                     <p class="text-big">Fuelled by a passion for technology, I have a deep desire to excel and
                         continuously improve in my work. Learn more about my journey below.</p>
                 </div>
@@ -61,15 +68,36 @@
 
         <div class="container">
             <div class="row gx-5 align-items-center" id="text-one">
-                <div class="col col-md-5">
-                    <h1 class="heading-medium"> Hi there!</h1>
-                    <p class="text-medium">Fuelled by a passion for technology, I have a deep desire to excel and
-                        continuously improve in my work. Learn more about my journey below.</p>
+                <div class="col col-lg-5">
+                    <h1 class="heading-medium">About my study</h1>
+                    <p class="text-medium">As someone that's always interested in technologies and how things work, I
+                        want to continue
+                        learning more about programming and IT in general. In my prior education, I already did some
+                        programming so HBO ICT is a logical choice for me to continue learning more.</p>
                 </div>
-                <div class="col col-md-5">
+                <div class="col col-md-auto">
                     <div class="text-center">
-                        test
+                        <img src="assets/images/ict.jpg" loading="lazy" alt="pic-of-ict" width="450"
+                            class="pic-rounded img-fluid">
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row gx-3 justify-content-md-center" id="text-two">
+                <!-- <div class="col col-md-auto"> -->
+                <div class="col col-md-8">
+                    <button type="button" class="btn btn-outline-dark">HTML</button>
+                    <button type="button" class="btn btn-outline-dark">CSS</button>
+                    <button type="button" class="btn btn-outline-dark">Java</button>
+                    <button type="button" class="btn btn-outline-dark">Swift</button>
+                    <button type="button" class="btn btn-outline-dark">SwiftUI</button>
+                    <button type="button" class="btn btn-outline-dark">Kotlin</button>
+                    <button type="button" class="btn btn-outline-dark">Flutter</button>
+                    <button type="button" class="btn btn-outline-dark">Javascript</button>
+                    <button type="button" class="btn btn-outline-dark">Vue</button>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
