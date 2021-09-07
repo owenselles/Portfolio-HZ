@@ -153,6 +153,7 @@
       color: #000;
       font-size: 20px;
       font-weight: 300;
+      margin-right: 50px;
   }
 
   .text-gray {
@@ -160,6 +161,7 @@
       line-height: 46px;
       font-size: 26px;
       color: #62646d;
+      position: relative;
   }
 
   .btn-outline-dark {
