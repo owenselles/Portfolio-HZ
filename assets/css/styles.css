@@ -92,6 +92,11 @@
   .gradient-animation {
       position: static;
   }
+  @media(max-width:767px) {
+  .pic-ict {
+      display: none;
+  }
+}
   /* Text sizes */
 
   .heading-big {
