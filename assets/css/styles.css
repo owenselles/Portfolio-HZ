@@ -1,7 +1,6 @@
   body {
     background-color: #eeeff1;
   }
-
   /* Navbar */
   .btn {
       color: #fff;
@@ -33,7 +32,6 @@
   .nav-link {
     margin-right: 15px;
   }
-
   .socials {
       position: fixed;
       top: auto;
@@ -49,23 +47,27 @@
       position: sticky;
       padding-top: 17px;
   }
-
     /* Intro */
     #intro-row {
         margin-top: 100px;
         margin-bottom: 140px;
         margin-left: 50px;
-
     }
     @media(max-width:767px){
         #intro-row {
             margin-top: 0px;
             margin-bottom: 140px;
             margin-left: 0px;
-    
         }
-
     }
+    .pic-of-me {
+        border-radius: 15px;
+    }
+    /* Text-one */
+    #text-one {
+        margin-left: 50px;
+    }
+    /* Text sizes */
     .heading-big {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -78,15 +80,24 @@
         font-size: 25px;
         font-weight: 300;
     }
-    .pic-of-me {
-        border-radius: 15px;
+    .heading-medium {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #1a1c20;
+        font-size: 44px;
+        font-weight: 500;
+    }
+    .text-medium {
+        color: #000;
+        font-size: 20px;
+        font-weight: 300;
     }
 
 
-  /* .col {
+  .col {
 
       border-color: blue;
       border-width: 5px;
       border-style: solid;
-  } */
+  }
   

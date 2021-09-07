@@ -14,7 +14,6 @@
 
 <body>
     <div class="container-fluid">
-
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand mb-0 h1" href="#">Owen Selles</a>
@@ -25,13 +24,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-nav ms-auto" id="navbar-items">
-                        <a class="nav-link" href="#">About me</a>
-                        <a class="nav-link" href="#">Blog</a>
-                        <a class="nav-link" href="#">FAQ</a>
-                        <a class="nav-link" href="#">Contact</a>
-                        <!-- change to View work when dahsboard isnt needed anymore -->
-                        <button class="btn btn-dark me-2" type="button">Dashboard</button>
-
+                        <a class="nav-link" href="/about.html">About me</a>
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                        <a class="nav-link" href="/faq.html">FAQ</a>
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                        <!-- change to View work when dahsboard isnt needed anymore and use to showcase projects -->
+                        <button class="btn btn-dark me-2" onclick="window.location.href='/dashboard.html';" type="button">Dashboard</button>
                     </div>
                 </div>
             </div>
@@ -49,13 +47,29 @@
             <div class="row gx-5 align-items-center" id="intro-row">
                 <div class="col col-md-auto">
                     <div class="text-center">
-                        <img src="assets/images/me.png" loading= "lazy" alt="pic-of-me" width="375" class="pic-of-me img-fluid">
+                        <img src="assets/images/me.png" loading="lazy" alt="pic-of-me" width="375"
+                            class="pic-of-me img-fluid">
                     </div>
                 </div>
                 <div class="col col-md-5">
                     <h1 class="heading-big"> Hi there!</h1>
                     <p class="text-big">Fuelled by a passion for technology, I have a deep desire to excel and
                         continuously improve in my work. Learn more about my journey below.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row gx-5 align-items-center" id="text-one">
+                <div class="col col-md-5">
+                    <h1 class="heading-medium"> Hi there!</h1>
+                    <p class="text-medium">Fuelled by a passion for technology, I have a deep desire to excel and
+                        continuously improve in my work. Learn more about my journey below.</p>
+                </div>
+                <div class="col col-md-5">
+                    <div class="text-center">
+                        test
+                    </div>
                 </div>
             </div>
         </div>
