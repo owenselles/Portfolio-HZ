@@ -149,6 +149,12 @@
 
   /* Text sizes */
 
+  .copyright {
+      color: #8f929e;
+      font-size: 14px;
+      line-height: 26px;
+  }
+
   .heading-big {
       margin-top: 10px;
       margin-bottom: 10px;
