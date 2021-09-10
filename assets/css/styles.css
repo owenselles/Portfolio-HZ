@@ -45,6 +45,8 @@
       --animate-duration: 0.7s;
   }
 
+  /* Social buttons */
+
   .socials {
       position: fixed;
       top: auto;
@@ -95,7 +97,6 @@
       right: 250px;
       overflow: hidden;
       max-width: 1100px;
-      opacity: 0.8;
       z-index: 0;
   }
 
@@ -165,6 +166,7 @@
 
     .progress-bar {
         background-color: #8f929e;
+        border-radius: 8px;
     }
 
   /* Text sizes */
