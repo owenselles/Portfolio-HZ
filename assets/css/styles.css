@@ -147,6 +147,22 @@
       }
   }
 
+    /* Dashboard */
+
+    #dashboard-row-one {
+        margin-top: 50px;
+        margin-bottom: 140px;
+        margin-left: 50px;
+    }
+  
+    @media(max-width:767px) {
+        #dashboard-row-one {
+            margin-top: 0px;
+            margin-bottom: 140px;
+            margin-left: 0px;
+        }
+    }
+
   /* Text sizes */
 
   #copyright {
