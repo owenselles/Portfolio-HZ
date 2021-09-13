@@ -64,6 +64,8 @@
       padding-top: 17px;
   }
 
+  /* Blog */
+
   /* About */
 
   #intro-row {
@@ -89,7 +91,6 @@
   #contact-form {
       margin-left: 50px;
       margin-top: 75px;
-
   }
 
   #text-one {
@@ -156,26 +157,30 @@
       }
   }
 
-    /* Dashboard */
+  /* Dashboard */
 
-    #dashboard-row-one {
-        margin-top: 50px;
-        margin-bottom: 10px;
-        margin-left: 50px;
-    }
-  
-    @media(max-width:767px) {
-        #dashboard-row-one {
-            margin-top: 0px;
-            margin-bottom: 10px;
-            margin-left: 0px;
-        }
-    }
+  .progress-bar-marker {
+      background-image: linear-gradient(90deg, rgba(225, 225, 225, 0.1) 99%, rgba(204, 0, 0, 1) 1%);
+  }
 
-    .progress-bar {
-        background-color: #8f929e;
-        border-radius: 8px;
-    }
+  #dashboard-row-one {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 50px;
+  }
+
+  @media(max-width:767px) {
+      #dashboard-row-one {
+          margin-top: 0px;
+          margin-bottom: 10px;
+          margin-left: 0px;
+      }
+  }
+
+  .progress-bar {
+      background-color: #8f929e;
+      border-radius: 8px;
+  }
 
   /* Text sizes */
 
