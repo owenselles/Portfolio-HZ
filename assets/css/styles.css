@@ -182,6 +182,12 @@
       border-radius: 8px;
   }
 
+  /* Blog */
+
+ .col-md-4 {
+     padding: 10px;
+ }
+
   /* Text sizes */
 
   #copyright {
