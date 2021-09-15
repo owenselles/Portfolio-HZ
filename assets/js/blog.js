@@ -12,34 +12,29 @@ $(function () {
                     display += `<div class="col col-md-4">`;
                     display += `<div class="card">`;
                     display += `<div class="card-header"><a id="copyright">${item.pubDate}</a></div>`;
-                    var src = item["thumbnail"]; // use thumbnail url
+                    var src = item["thumbnail"];
                     display += `<img src="${src}" class="card-img-top" alt="Cover image">`;
                     display += `<div class="card-body">`;
                     display += `<h5 class="card-title">${item.title}</a></h5>`;
-                    var yourString = item.description.replace(/<img[^>]*>/g, ""); //replace with your string.
+                    var yourString = item.description.replace(/<img[^>]*>/g, "");
                     yourString = yourString.replace('h4', 'p');
                     yourString = yourString.replace('h3', 'p');
-                    var maxLength = 120; // maximum number of characters to extract
-                    //trim the string to the maximum length
+                    var maxLength = 120; // number of characters for the description
                     var trimmedString = yourString.substr(0, maxLength);
-                    //re-trim if we are in the middle of a word
+                    //trim again if it is the middle of a word
                     trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
                     display += `<p class="card-text">${trimmedString}...</p>`;
-
                     display += `<a href="${item.link}" target="_blank" class="btn btn-outline-success" >Read More</a>`;
                     display += '</div></div></div>';
                     return k < 10;
                 });
-
                 resolve($content.html(display));
             }
         });
     });
 
     mediumPromise.then(function () {
-        //Pagination
         pageSize = 6;
-
         var pageCount = $(".card").length / pageSize;
 
         for (var i = 0; i < pageCount; i++) {
