@@ -34,7 +34,7 @@ $(function () {
     });
 
     mediumPromise.then(function () {
-        pageSize = 6;
+        pageSize = 4;
         var pageCount = $(".card").length / pageSize;
 
         for (var i = 0; i < pageCount; i++) {
